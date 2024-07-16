@@ -41,7 +41,6 @@ func main() {
 	}
 
 	directory := os.Args[1]
-	// fmt.Printf("%s", directory)
 
 	renameFilesInDirectory(directory)
 }
